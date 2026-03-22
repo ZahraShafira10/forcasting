@@ -210,6 +210,13 @@ forecasting/
 ├── app/
 │   └── streamlit_app.py
 ├── data/
+│   └── reference/
+│       ├── supplier_contacts.csv
+│       ├── recipe_mapping.csv
+│   └── raw/
+│       ├── restaurant_sales_data.csv
+│       ├── restaurant_inventory_2024_by_ingredients.csv
+│       ├── restaurant_inventory_100days.csv
 ├── scripts/
 │   └── run_capstone_pipeline.py
 ├── src/
