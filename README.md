@@ -1,6 +1,6 @@
 # Restaurant Inventory Forecasting Capstone
 
-## Background / Why This Project
+## Background
 This project started from a common issue in restaurant operations: inventory is often managed reactively. Sometimes ingredients run out unexpectedly, and other times there is too much overstock.
 
 The goal here is to explore a more data-driven approach by connecting sales data, recipe mapping, and inventory into one flow. This is not meant to be a perfect system, but rather a working prototype that shows how demand can be translated into ingredient planning and reorder decisions.
