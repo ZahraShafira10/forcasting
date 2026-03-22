@@ -1,0 +1,223 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e7]:
+      - button "Deploy" [ref=e9] [cursor=pointer]:
+        - generic [ref=e11]: Deploy
+      - button [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+  - generic [ref=e4]:
+    - button [ref=e19] [cursor=pointer]:
+      - img [ref=e20]
+    - generic [ref=e30]:
+      - heading "Planning Controls" [level=2] [ref=e34]
+      - paragraph [ref=e38]: Set the planning scenario, then review stock risk and supplier orders.
+      - generic [ref=e40]:
+        - paragraph [ref=e43]: Planning horizon
+        - generic [ref=e44]:
+          - slider "Planning horizon" [ref=e47]:
+            - generic: "14"
+          - generic [ref=e48]:
+            - generic [ref=e49]: "7"
+            - generic [ref=e50]: "30"
+      - generic [ref=e52]:
+        - paragraph [ref=e55]: Weather pattern
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: Historical mix
+            - combobox "Selected Historical mix. Weather pattern" [ref=e61]
+          - img "open" [ref=e63]
+      - generic [ref=e67] [cursor=pointer]:
+        - checkbox "Include promotion effect"
+        - paragraph [ref=e72]: Include promotion effect
+      - generic [ref=e75] [cursor=pointer]:
+        - checkbox "Include special event"
+        - paragraph [ref=e80]: Include special event
+      - separator [ref=e84]
+      - heading "Use Your Own Data" [level=3] [ref=e88]
+      - paragraph [ref=e92]: Optional. Uploaded files override the sample data for the current session only.
+      - generic [ref=e94]:
+        - paragraph [ref=e97]: Sales CSV
+        - button "Sales CSV" [ref=e98] [cursor=pointer]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: Drag and drop file here
+            - generic [ref=e102]: Limit 200MB per file • CSV
+          - button "Browse files" [ref=e103]
+      - generic [ref=e105]:
+        - paragraph [ref=e108]: Inventory CSV
+        - button "Inventory CSV" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Drag and drop file here
+            - generic [ref=e113]: Limit 200MB per file • CSV
+          - button "Browse files" [ref=e114]
+      - generic [ref=e116]:
+        - paragraph [ref=e119]: Recipe mapping CSV
+        - button "Recipe mapping CSV" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Drag and drop file here
+            - generic [ref=e124]: Limit 200MB per file • CSV
+          - button "Browse files" [ref=e125]
+      - generic [ref=e127]:
+        - paragraph [ref=e130]: Supplier directory CSV
+        - button "Supplier directory CSV" [ref=e131] [cursor=pointer]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Drag and drop file here
+            - generic [ref=e135]: Limit 200MB per file • CSV
+          - button "Browse files" [ref=e136]
+      - separator [ref=e140]
+      - paragraph [ref=e144]: "Tip: Sales uploads change demand charts. Inventory uploads change stock, reorder, and supplier planning views."
+    - generic [ref=e149]:
+      - generic [ref=e153]:
+        - generic [ref=e154]: Central Warehouse Planner
+        - heading "Inventory, demand, and supplier planning in one clear workspace" [level=1] [ref=e156]: Inventory, demand, and supplier planning in one clear workspace
+        - paragraph [ref=e158]: Review expected demand for the next 14 days, see which ingredients are at risk, and prepare supplier orders from the same dashboard. The view below is built for daily warehouse operations, not just model output.
+        - generic [ref=e159]:
+          - generic [ref=e160]: "Latest sales date: 01 Jan 2025"
+          - generic [ref=e161]: "Forecast scenario: Historical mix"
+          - generic [ref=e162]: "Promotion: Off"
+          - generic [ref=e163]: "Special event: Off"
+      - generic [ref=e164]:
+        - generic [ref=e172]:
+          - generic [ref=e173]: Expected Demand
+          - generic [ref=e174]: 115,787 portions
+          - generic [ref=e175]: Projected chain demand for the next 14 days.
+        - generic [ref=e183]:
+          - generic [ref=e184]: Urgent Stock Issues
+          - generic [ref=e185]: "44"
+          - generic [ref=e186]: Items already in critical territory and needing immediate attention.
+        - generic [ref=e194]:
+          - generic [ref=e195]: Watch List
+          - generic [ref=e196]: "6"
+          - generic [ref=e197]: Items that are still serviceable but getting close to the reorder point.
+        - generic [ref=e205]:
+          - generic [ref=e206]: Estimated Reorder Spend
+          - generic [ref=e207]: Rp 1,576,281
+          - generic [ref=e208]: Approximate spend for all items that currently need replenishment.
+        - generic [ref=e216]:
+          - generic [ref=e217]: Supplier Drafts Ready
+          - generic [ref=e218]: "2"
+          - generic [ref=e219]: Supplier summaries and draft order emails prepared for review.
+      - generic [ref=e223]:
+        - generic [ref=e231]:
+          - generic [ref=e232]: Sales
+          - generic [ref=e233]: Bundled sample
+          - generic [ref=e234]:
+            - text: restaurant_sales_data.csv
+            - text: 10,000 rows
+        - generic [ref=e242]:
+          - generic [ref=e243]: Inventory
+          - generic [ref=e244]: Bundled sample
+          - generic [ref=e245]:
+            - text: restaurant_inventory_2024_by_ingredients.csv
+            - text: 21,228 rows
+        - generic [ref=e253]:
+          - generic [ref=e254]: Recipes
+          - generic [ref=e255]: Bundled sample
+          - generic [ref=e256]:
+            - text: recipe_mapping.csv
+            - text: 68 rows
+        - generic [ref=e264]:
+          - generic [ref=e265]: Suppliers
+          - generic [ref=e266]: Bundled sample
+          - generic [ref=e267]:
+            - text: supplier_contacts.csv
+            - text: 58 rows
+      - generic [ref=e269]:
+        - tablist [ref=e271]:
+          - tab "Executive Summary" [selected] [ref=e272] [cursor=pointer]:
+            - paragraph [ref=e274]: Executive Summary
+          - tab "Sales Outlook" [ref=e275] [cursor=pointer]:
+            - paragraph [ref=e277]: Sales Outlook
+          - tab "Ingredient Planning" [ref=e278] [cursor=pointer]:
+            - paragraph [ref=e280]: Ingredient Planning
+          - tab "Stock Health" [ref=e281] [cursor=pointer]:
+            - paragraph [ref=e283]: Stock Health
+          - tab "Supplier Orders" [ref=e284] [cursor=pointer]:
+            - paragraph [ref=e286]: Supplier Orders
+          - tab "Data Setup" [ref=e287] [cursor=pointer]:
+            - paragraph [ref=e289]: Data Setup
+        - tabpanel "Executive Summary" [ref=e292]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e300]:
+                - generic [ref=e304]:
+                  - generic [ref=e305]: Demand outlook
+                  - paragraph [ref=e306]: Historical demand and forward demand are shown on the same scale so planners can compare current volume with the upcoming window without mental math.
+                - generic [ref=e309]:
+                  - button "Fullscreen" [ref=e314] [cursor=pointer]:
+                    - img [ref=e315]
+                  - img "0" [ref=e320]
+              - generic [ref=e324]:
+                - generic [ref=e328]:
+                  - generic [ref=e329]: What needs action today
+                  - paragraph [ref=e330]: Use this panel as the warehouse morning checklist. It highlights immediate stock risk and where the busiest demand is expected.
+                - list [ref=e334]:
+                  - listitem [ref=e335]:
+                    - text: Peak demand is expected on
+                    - strong [ref=e336]: 04 Jan 2025
+                    - text: with about
+                    - strong [ref=e337]: 12,651
+                    - text: portions.
+                  - listitem [ref=e338]:
+                    - strong [ref=e339]: "44"
+                    - text: items are critical,
+                    - strong [ref=e340]: "6"
+                    - text: are warning, and
+                    - strong [ref=e341]: "8"
+                    - text: are currently healthy.
+                  - listitem [ref=e342]:
+                    - text: Median stock cover across tracked ingredients is
+                    - strong [ref=e343]: 0.6 days
+                    - text: .
+                  - listitem [ref=e344]:
+                    - text: Recipe coverage is
+                    - strong [ref=e345]: 100.0%
+                    - text: of forecasted menu volume.
+                - paragraph [ref=e349]:
+                  - generic [ref=e350]: Critical
+                  - strong [ref=e351]: Rice
+                  - text: ": order about"
+                  - strong [ref=e352]: 604.52 kg
+                  - text: "from Supplier B. Current cover: 0.1 days."
+                - paragraph [ref=e356]:
+                  - generic [ref=e357]: Critical
+                  - strong [ref=e358]: Egg
+                  - text: ": order about"
+                  - strong [ref=e359]: 5,590.20 pieces
+                  - text: "from Supplier A. Current cover: 0.0 days."
+                - paragraph [ref=e363]:
+                  - generic [ref=e364]: Critical
+                  - strong [ref=e365]: White Bread
+                  - text: ": order about"
+                  - strong [ref=e366]: 482.62 kg
+                  - text: "from Supplier B. Current cover: 0.1 days."
+                - paragraph [ref=e370]:
+                  - generic [ref=e371]: Critical
+                  - strong [ref=e372]: Rice Flour Jelly
+                  - text: ": order about"
+                  - strong [ref=e373]: 231.54 kg
+                  - text: "from Supplier C. Current cover: 0.3 days."
+                - paragraph [ref=e377]:
+                  - generic [ref=e378]: Critical
+                  - strong [ref=e379]: Fries
+                  - text: ": order about"
+                  - strong [ref=e380]: 164.41 kg
+                  - text: "from Supplier B. Current cover: 0.5 days."
+            - generic [ref=e381]:
+              - generic [ref=e385]:
+                - heading "Best-selling menu items" [level=3] [ref=e390]: Best-selling menu items
+                - generic [ref=e396]:
+                  - button "Download as CSV" [ref=e399] [cursor=pointer]:
+                    - img [ref=e400]
+                  - button "Search" [ref=e405] [cursor=pointer]:
+                    - img [ref=e406]
+                  - button "Fullscreen" [ref=e411] [cursor=pointer]:
+                    - img [ref=e412]
+              - generic [ref=e426]:
+                - heading "Top items to reorder" [level=3] [ref=e431]: Top items to reorder
+                - generic [ref=e437]:
+                  - button "Download as CSV" [ref=e440] [cursor=pointer]:
+                    - img [ref=e441]
+                  - button "Search" [ref=e446] [cursor=pointer]:
+                    - img [ref=e447]
+                  - button "Fullscreen" [ref=e452] [cursor=pointer]:
+                    - img [ref=e453]

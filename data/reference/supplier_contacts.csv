@@ -1,0 +1,59 @@
+supplier_name,ingredient_name,email,contact_person,phone,lead_time_days,notes
+Supplier A,Anchovies,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Anchovies.
+Supplier B,Bean Sprouts,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Bean Sprouts.
+Supplier C,Beef,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Beef.
+Supplier A,Beef Bacon,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Beef Bacon.
+Supplier B,Black Pepper,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Black Pepper.
+Supplier C,Black Pepper Sauce,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Black Pepper Sauce.
+Supplier A,Black Tea,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Black Tea.
+Supplier B,Butter,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Butter.
+Supplier C,Cheese,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Cheese.
+Supplier A,Chicken,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Chicken.
+Supplier A,Chicken Thigh,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Chicken Thigh.
+Supplier B,Chili,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Chili.
+Supplier C,Chili Sauce,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Chili Sauce.
+Supplier A,Chives,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Chives.
+Supplier B,Cockles,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Cockles.
+Supplier C,Coconut Milk,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Coconut Milk.
+Supplier A,Coleslaw,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Coleslaw.
+Supplier B,Condensed Milk,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Condensed Milk.
+Supplier C,Cream,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Cream.
+Supplier A,Cucumber,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Cucumber.
+Supplier B,Curry,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Curry.
+Supplier C,Egg,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Egg.
+Supplier B,Eggs,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Eggs.
+Supplier A,Evaporated Milk,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Evaporated Milk.
+Supplier B,Fish Broth,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Fish Broth.
+Supplier C,Flat Rice Noodles,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Flat Rice Noodles.
+Supplier A,Flour,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Flour.
+Supplier B,Fries,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Fries.
+Supplier C,Galangal,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Galangal.
+Supplier A,Garlic,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Garlic.
+Supplier B,Ghee,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Ghee.
+Supplier C,Ginger,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Ginger.
+Supplier A,Kaya,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Kaya.
+Supplier B,Lemon,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Lemon.
+Supplier C,Lemongrass,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Lemongrass.
+Supplier A,Mint,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Mint.
+Supplier B,Mushrooms,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Mushrooms.
+Supplier A,Onion,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Onion.
+Supplier C,Palm Sugar,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Palm Sugar.
+Supplier A,Peanuts,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Peanuts.
+Supplier B,Prawns,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Prawns.
+Supplier C,Red Beans,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Red Beans.
+Supplier C,Rice,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Rice.
+Supplier A,Rice Flour Jelly,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Rice Flour Jelly.
+Supplier B,Rice Noodles,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Rice Noodles.
+Supplier C,Sambal,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Sambal.
+Supplier A,Shrimp Paste,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Shrimp Paste.
+Supplier B,Soft-Boiled Eggs,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Soft-Boiled Eggs.
+Supplier C,Soy Sauce,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Soy Sauce.
+Supplier A,Spaghetti,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Spaghetti.
+Supplier B,Spices,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Spices.
+Supplier C,Sugar Syrup,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Sugar Syrup.
+Supplier A,Tamarind,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Tamarind.
+Supplier B,Tandoori Masala,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for Tandoori Masala.
+Supplier C,Vegetable Broth,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Vegetable Broth.
+Supplier A,Water,orders.suppliera@example.com,Alicia Pratama,+62-811-1000-0001,1,Dummy supplier record for Water.
+Supplier B,White Bread,orders.supplierb@example.com,Bima Santoso,+62-811-1000-0002,2,Dummy supplier record for White Bread.
+Supplier C,Yogurt,orders.supplierc@example.com,Clara Wijaya,+62-811-1000-0003,4,Dummy supplier record for Yogurt.

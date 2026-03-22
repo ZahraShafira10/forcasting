@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: restaurant-forecasting-capstone
+Version: 0.1.0
+Summary: AI-driven restaurant inventory forecasting and reorder decision support prototype.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: streamlit>=1.43.0
+
+# Restaurant Forecasting Capstone
+
+## Architecture
+This project implements a capstone-ready decision support system for small restaurant operations using the two datasets you provided: historical sales and daily inventory snapshots. The system is designed around four core layers:
+
+1. Data ingestion and validation for sales, inventory, recipe mapping, and supplier reference data.
+2. Demand forecasting using a ridge-regression style model built with `pandas` and `numpy`, so the project remains runnable even when `scikit-learn` is unavailable locally.
+3. Inventory intelligence that converts menu demand into ingredient usage, flags low-stock risk, and recommends reorder quantities.
+4. A Streamlit dashboard that exposes forecasting, inventory alerts, and supplier reorder views in one interface.
+
+Because the original inputs do not include a standalone recipe mapping file or supplier contacts dataset, this repository includes editable seed reference files derived from the provided data and clearly marked as assumptions to review.
+
+## Folder Structure
+```text
+forecasting/
+├── app/
+│   └── streamlit_app.py
+├── data/
+│   ├── raw/
+│   │   ├── restaurant_inventory_2024_by_ingredients.csv
+│   │   └── restaurant_sales_data.csv
+│   └── reference/
+│       ├── recipe_mapping.csv
+│       └── supplier_contacts.csv
+├── docs/
+│   └── capstone_scope.md
+├── output/
+├── scripts/
+│   └── run_capstone_pipeline.py
+├── src/
+│   └── restaurant_forecasting/
+│       ├── __init__.py
+│       ├── config.py
+│       ├── data_loader.py
+│       ├── forecasting.py
+│       ├── inventory.py
+│       └── pipeline.py
+├── tests/
+│   └── test_pipeline.py
+├── .gitignore
+├── pyproject.toml
+└── README.md
+```
+
+## Implementation
+### 1. Install dependencies
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+### 2. Run the pipeline
+```bash
+python3 scripts/run_capstone_pipeline.py --horizon-days 14
+```
+
+This exports:
+- `output/forecast/menu_item_forecast.csv`
+- `output/forecast/ingredient_forecast.csv`
+- `output/forecast/inventory_alerts.csv`
+- `output/forecast/supplier_reorders.csv`
+
+### 3. Launch the dashboard
+```bash
+streamlit run app/streamlit_app.py
+```
+
+## Explanation
+- The forecasting module predicts future row-level demand by learning from date patterns, menu mix, restaurant context, promotions, weather, and pricing.
+- The inventory module combines forecasted ingredient demand with historical daily usage from the inventory file and applies a conservative cap to forecast-driven usage until the recipe mapping is fully validated.
+- The recipe mapping file is intentionally editable because the provided datasets do not include a full recipe table; the current seed gives you an end-to-end prototype today and a clean place to refine assumptions later.
