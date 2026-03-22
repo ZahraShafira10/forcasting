@@ -221,11 +221,15 @@ forecasting/
 │   └── run_capstone_pipeline.py
 ├── src/
 │   └── restaurant_forecasting/
+│       ├── __init__.py
 │       ├── config.py
 │       ├── data_loader.py
 │       ├── forecasting.py
 │       ├── inventory.py
 │       └── pipeline.py
+├── docs/
+│   └── capstone_scope.md
+│   └── Capstone_Project_Proposal Zahra Putri.docx
 ├── tests/
 │   └── test_pipeline.py
 └── README.md
